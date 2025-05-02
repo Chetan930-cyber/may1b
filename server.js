@@ -10,10 +10,12 @@ const app = express();
 
 // Middleware
 // ... existing code ...
+// ... existing code ...
 app.use(cors({
-  origin: "https://may1f-q1d7.vercel.app/",
+  origin: ["https://may1f-q1d7.vercel.app", "https://may1f-q1d7-7cu15vpe3-chetan-chouhans-projects-82c4218d.vercel.app"],
   credentials: true
 }));
+// ... existing code ...
 // ... existing code ...
 app.use(express.json());
 
